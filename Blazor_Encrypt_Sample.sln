@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor_Encrypt_Sample.Server", "Blazor_Encrypt_Sample\Blazor_Encrypt_Sample.Server\Blazor_Encrypt_Sample.Server.csproj", "{6E13A7B9-76F1-438D-A41C-28546908397A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor_Encrypt_Sample.Client", "Blazor_Encrypt_Sample\Blazor_Encrypt_Sample.Client\Blazor_Encrypt_Sample.Client.csproj", "{4B6C9F7A-DF22-4D60-AF1C-CBBEC4B754E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor_Encrypt_Sample.Shared", "Blazor_Encrypt_Sample\Blazor_Encrypt_Sample.Shared\Blazor_Encrypt_Sample.Shared.csproj", "{4724E6E5-EF2B-47B3-B043-4B6CC5FA634E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E13A7B9-76F1-438D-A41C-28546908397A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E13A7B9-76F1-438D-A41C-28546908397A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E13A7B9-76F1-438D-A41C-28546908397A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E13A7B9-76F1-438D-A41C-28546908397A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6C9F7A-DF22-4D60-AF1C-CBBEC4B754E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6C9F7A-DF22-4D60-AF1C-CBBEC4B754E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6C9F7A-DF22-4D60-AF1C-CBBEC4B754E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6C9F7A-DF22-4D60-AF1C-CBBEC4B754E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4724E6E5-EF2B-47B3-B043-4B6CC5FA634E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4724E6E5-EF2B-47B3-B043-4B6CC5FA634E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4724E6E5-EF2B-47B3-B043-4B6CC5FA634E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4724E6E5-EF2B-47B3-B043-4B6CC5FA634E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB754F1D-1C68-43A0-A2DA-870B6758AA77}
+	EndGlobalSection
+EndGlobal
