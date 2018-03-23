@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Remove="Properties\PublishProfiles\Default Settings.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.0-preview2-30230" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Browser" Version="0.1.0" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="0.1.0" />
@@ -13,6 +18,26 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Blazor_Encrypt_Sample.Shared\Blazor_Encrypt_Sample.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Cipher.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\_ViewImports.cshtml" />
   </ItemGroup>
 
 </Project>
